@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\weApp\bin\Debug\netcoreapp2.1\weApp.deps.json
+C:\Users\admin\source\repos\weApp\bin\Debug\netcoreapp2.1\weApp.runtimeconfig.json
+C:\Users\admin\source\repos\weApp\bin\Debug\netcoreapp2.1\weApp.runtimeconfig.dev.json
+C:\Users\admin\source\repos\weApp\bin\Debug\netcoreapp2.1\weApp.dll
+C:\Users\admin\source\repos\weApp\bin\Debug\netcoreapp2.1\weApp.pdb
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.RazorAssemblyInfo.cache
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.RazorAssemblyInfo.cs
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.AssemblyInfo.cs
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.RazorTargetAssemblyInfo.cache
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.dll
+C:\Users\admin\source\repos\weApp\obj\Debug\netcoreapp2.1\weApp.pdb
