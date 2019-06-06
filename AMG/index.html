@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function loadFromCRM() {
+            //in JS web resource
+            //var accName = formContext.getAttribute("name").getValue();
+
+            //in HTML web resource, follow old practice as below
+            var accName = parent.Xrm.Page.getAttribute("name").getValue();
+            document.getElementById("tb1").value = accName;
+        }
+
+        function loadFromServer() {
+            parent.Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name").then(
+                function success(result) {
+                    var desc = "";
+                    for (var i = 0; i < result.entities.length; i++) {
+                        desc += result.entities[i].shub_name + " ";
+                    }
+                    document.getElementById("textarea").value = desc;
+                    // perform additional operations on retrieved records
+                },
+                function (error) {
+                    console.log(error.message);
+                    // handle error conditions
+                }
+            ); 
+        }
+    </script>
+</head>
+<body>
+    Name: <input type="text" id="tb1"/>
+    <input type="button" value="Load from Page" id="btn1" onclick="loadFromCRM()" />
+
+    load from server: <textarea name="message" id="textarea" rows="10" cols="30"></textarea>
+                      <input type="button" value="Load from Server" id="btn2" onclick="loadFromServer()" />
+</body>
+</html>
